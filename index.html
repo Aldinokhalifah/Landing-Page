@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="landingpage.css">
     <link rel="stylesheet"
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
    
 
 </head>
@@ -41,12 +42,12 @@
     <section class="sponsor">
         <div class="sponsor-item">
             <h2>collaborating with big world companies</h2>
-            <img src="img/apple-logo.png" alt="">
-            <img src="img/facebook-app-symbol.png" alt="">
-            <img src="img/google.png" alt="">
-            <img src="img/netflix.png" alt="">
-            <img src="img/spotify.png" alt="">
-            <img src="img/youtube.png" alt="">
+            <img data-aos="flip-up" data-aos-duration="1000" src="img/apple-logo.png" alt="">
+            <img data-aos="flip-up" data-aos-duration="1000" data-aos-delay="200" src="img/facebook-app-symbol.png" alt="">
+            <img data-aos="flip-up" data-aos-duration="1000" data-aos-delay="400" src="img/google.png" alt="">
+            <img data-aos="flip-up" data-aos-duration="1000" data-aos-delay="600" src="img/netflix.png" alt="">
+            <img data-aos="flip-up" data-aos-duration="1000" data-aos-delay="800" src="img/spotify.png" alt="">
+            <img data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000" src="img/youtube.png" alt="">
         </div>
     </section>
 
@@ -54,19 +55,22 @@
         <div class="sosmed-text">
             <h2>Follow us on <b>Instagram</b></h2>
         </div>
-        <div class="sosmed-img">
-            <img class="satu" src="img/gambar streaming platform.jpg" alt="">
-            <img class="dua" src="img/gambar streaming platform(2).jpg" alt="">
-            <img class="tiga" src="img/gambar streaming platform(3).jpg" alt="">
-            <img class="empat" src="img/gambar streaming platform(4).jpg" alt="">
-            <img class="lima" src="img/gambar streaming platform(5).jpg" alt="">
-            <img class="enam" src="img/gambar streaming platform(6).jpg" alt="">
+        <div class="sosmed-img" data-aos="fade-down" data-aos-duration="2000">
+            <img   class="satu" src="img/gambar streaming platform.jpg" alt="">
+            <img   class="dua" src="img/gambar streaming platform(2).jpg" alt="">
+            <img   class="tiga" src="img/gambar streaming platform(3).jpg" alt="">
+            <img   class="empat" src="img/gambar streaming platform(4).jpg" alt="">
+            <img   class="lima" src="img/gambar streaming platform(5).jpg" alt="">
+            <img   class="enam" src="img/gambar streaming platform(6).jpg" alt="">
         </div>
     </section>
 
     <section class="products">
         <div class="products-container">
-            <div class="box">
+            <div class="box" data-aos="fade-down"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="500" data-aos-delay="600"> 
                 <h3>Standard</h3> 
                 <ul>
                     <li>Good quality vidoes</li>
@@ -79,7 +83,10 @@
                     <button type="button"><i class="btn"></i>Buy</button>
                 </div>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-down"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="500" data-aos-delay="400">
                 <h3>Premium</h3>
                 <ul>
                     <li>Better quality videos</li>
@@ -92,7 +99,10 @@
                     <button type="button"><i class="btn"></i>Buy</button>
                 </div>
             </div>
-            <div class="box">
+            <div class="box" data-aos="fade-down"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="500" data-aos-delay="200">
                 <h3>Premium+</h3>
                 <ul>
                     <li>Best quality videos</li>
@@ -170,5 +180,11 @@
         <p>&#169; AldinoKhalifah All Right Reserved</p>
     </div>
 
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>

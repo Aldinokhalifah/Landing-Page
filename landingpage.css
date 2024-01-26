@@ -63,8 +63,15 @@ header button {
     font-size: 16px;
     border-radius: 20px;
     cursor: pointer;
+    box-shadow: 0 9px #999;
     background-color: #f0f0f0;
 }
+
+header button:active {
+    background-color: #ffff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
 .home{
     width: 100%;
